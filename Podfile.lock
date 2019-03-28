@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Differentiator (3.1.0)
+  - HandyJSON (4.1.3)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Moya/RxSwift (12.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - Result (4.1.0)
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.4.2):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.2):
+    - RxAtomic (>= 4.4.2, ~> 4.4)
+
+DEPENDENCIES:
+  - HandyJSON (= 4.1.3)
+  - Moya
+  - Moya/RxSwift
+  - RxDataSources
+  - RxSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Differentiator
+    - HandyJSON
+    - Moya
+    - Result
+    - RxAtomic
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  HandyJSON: bc81fbeb62d65ae5d5942ed29bc4a8265d18c1e8
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: 477990dc3b4c3ff55fb0ac77e1cc06244e0aaec8
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
+
+PODFILE CHECKSUM: 8f9600fcacd4ad7f219fa3e622b795a0a3a57101
+
+COCOAPODS: 1.6.1
